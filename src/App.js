@@ -2,7 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import LikeButton from "./components/LikeButton";
-import ShowWords from "./components/showWords";
+// import ShowWords from "./components/showWords";
+import MouseTracker from "./components/clickTracker";
 function App() {
   return (
     <div className="App">
@@ -13,7 +14,8 @@ function App() {
         </p>
         <p>
           <LikeButton></LikeButton>
-          <ShowWords></ShowWords>
+          {/*<ShowWords></ShowWords>*/}
+          <MouseTracker></MouseTracker>
 
         </p>
         <a
