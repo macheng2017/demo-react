@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import LikeButton from "./components/LikeButton";
+import ShowWords from "./components/showWords";
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,8 @@ function App() {
         </p>
         <p>
           <LikeButton></LikeButton>
+          <ShowWords></ShowWords>
+
         </p>
         <a
           className="App-link"
