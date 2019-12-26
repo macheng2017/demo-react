@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import LikeButton from "./components/LikeButton";
 function App() {
   return (
     <div className="App">
@@ -9,6 +9,9 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <p>
+          <LikeButton></LikeButton>
         </p>
         <a
           className="App-link"
