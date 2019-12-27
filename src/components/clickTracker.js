@@ -17,10 +17,10 @@ const MouseTracker = () => {
             document.removeEventListener('click',updatePosition)
         }
     })
-    return (<p>
+    return (<div>
         x:{position.x}
         y:{position.y}
-    </p>)
+    </div>)
 
 }
 

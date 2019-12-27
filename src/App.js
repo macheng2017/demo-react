@@ -14,13 +14,15 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <p>
-          <LikeButton></LikeButton>
-          {/*<ShowWords></ShowWords>*/}
-          {/*<MouseTracker></MouseTracker>*/}
-          <ShowDogs></ShowDogs>
-
 
         </p>
+        <div>
+          <LikeButton/>
+          {/*<ShowWords></ShowWords>*/}
+          {/*<MouseTracker></MouseTracker>*/}
+          <ShowDogs/>
+        </div>
+
         <a
           className="App-link"
           href="https://reactjs.org"
