@@ -3,8 +3,10 @@ import logo from './logo.svg';
 import './App.css';
 import LikeButton from "./components/LikeButton";
 // import ShowWords from "./components/showWords";
-// import MouseTracker from "./components/clickTracker";
+import MouseTracker from "./components/clickTracker";
 import ShowDogs from "./components/ShowDogs";
+
+
 function App() {
   return (
     <div className="App">
@@ -19,7 +21,7 @@ function App() {
         <div>
           <LikeButton/>
           {/*<ShowWords></ShowWords>*/}
-          {/*<MouseTracker></MouseTracker>*/}
+          <MouseTracker></MouseTracker>
           <ShowDogs/>
         </div>
 
