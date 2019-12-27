@@ -10,17 +10,13 @@ const ShowDogs = () => {
             setUrl(res.data.message)
         });
         setLoading(false)
-    });
-
+    },[]);
     return (
         <div>
             dogs
             {loading ? 'loading' : <img src={url} alt=""/>}
         </div>
-
     )
-
 }
-
 export default ShowDogs
 
