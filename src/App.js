@@ -4,7 +4,8 @@ import './App.css';
 import LikeButton from "./components/LikeButton";
 // import ShowWords from "./components/showWords";
 import MouseTracker from "./components/clickTracker";
-import ShowDogs from "./components/ShowDogs";
+// import ShowDogs from "./components/ShowDogs";
+import ShowDogs2 from "./components/ShowDogs2";
 
 
 function App() {
@@ -22,7 +23,8 @@ function App() {
           <LikeButton/>
           {/*<ShowWords></ShowWords>*/}
           <MouseTracker></MouseTracker>
-          <ShowDogs/>
+          {/*<ShowDogs/>*/}
+          <ShowDogs2/>
         </div>
 
         <a
